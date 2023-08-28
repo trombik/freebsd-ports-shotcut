@@ -15,7 +15,7 @@ RUN_DEPENDS=	ffmpeg:multimedia/ffmpeg \
 		${LOCALBASE}/lib/libjack.so:audio/jack
 
 USES=		cmake compiler:c++11-lang cpe desktop-file-utils gl mlt:7 pkgconfig \
-		qmake:no_env qt:5 sdl shared-mime-info tar:txz xorg
+		qmake:no_env qt:6 sdl shared-mime-info tar:txz xorg
 CPE_VENDOR=	meltytech
 
 GH_ACCOUNT=	mltframework
