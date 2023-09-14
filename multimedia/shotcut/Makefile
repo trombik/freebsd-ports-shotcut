@@ -17,10 +17,12 @@ LIB_DEPENDS=	libfftw3.so:math/fftw3 \
 	libx264.so:multimedia/libx264
 
 RUN_DEPENDS=	ffmpeg:multimedia/ffmpeg \
-		${LOCALBASE}/lib/libjack.so:audio/jack
+		${LOCALBASE}/lib/libjack.so:audio/jack \
+		${LOCALBASE}/lib/mlt-7/libmltqt${SHOTCUT_QT_VERSION}.so:multimedia/mlt7-qt@qt${SHOTCUT_QT_VERSION}
 
+SHOTCUT_QT_VERSION=	6
 USES=		cmake compiler:c++11-lang cpe desktop-file-utils gl mlt:7 pkgconfig \
-		qmake:no_env qt:6 sdl shared-mime-info tar:txz xorg
+		qmake:no_env qt:${SHOTCUT_QT_VERSION} sdl shared-mime-info tar:txz xorg
 CPE_VENDOR=	meltytech
 
 GH_ACCOUNT=	mltframework
