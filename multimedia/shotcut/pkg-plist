@@ -1,4 +1,5 @@
 bin/shotcut
+bin/shotcut-real
 lib/libCuteLogger.so
 share/applications/org.shotcut.Shotcut.desktop
 share/icons/hicolor/128x128/apps/org.shotcut.Shotcut.png
@@ -484,21 +485,21 @@ share/mime/packages/org.shotcut.Shotcut.xml
 %%DATADIR%%/qml/views/timeline/Track.js
 %%DATADIR%%/qml/views/timeline/Track.qml
 %%DATADIR%%/qml/views/timeline/TrackHead.qml
-%%DATADIR%%/translations/shotcut_he_IL.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_ar.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_ca.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_cs.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_da.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_de.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_el.qm
-%%NLS%%%%DATADIR%%/translations/shotcut_en.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_en_GB.qm
+%%NLS%%%%DATADIR%%/translations/shotcut_en.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_es.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_et.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_fi.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_fr.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_gd.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_gl.qm
+%%NLS%%%%DATADIR%%/translations/shotcut_he_IL.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_hu.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_it.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_ja.qm
@@ -521,4 +522,4 @@ share/mime/packages/org.shotcut.Shotcut.xml
 %%NLS%%%%DATADIR%%/translations/shotcut_uk.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_zh_CN.qm
 %%NLS%%%%DATADIR%%/translations/shotcut_zh_TW.qm
-@dir %%DATADIR%%/translations/.lupdate
+@comment @dir %%DATADIR%%/translations/.lupdate
